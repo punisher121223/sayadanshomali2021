@@ -20,7 +20,7 @@ const App = () => h(
   null,
   h('div', { className: 'container mx-auto p-4' }, [
     h('h1', { className: 'text-3xl font-bold text-center mb-6 text-blue-800' }, 'صیادان شمالی ۲۰۲۱'),
-    h('div', { className: 'banner h-64 mb-6 flex items-center justify-center text-2xl font-bold' }, 'بهترین لوازم ماهیگیری و کمپینگ با قیمت‌های استثنایی'),
+    h('div', { className: 'banner h-64 mb-6 flex items-center justify-center text-2xl font-bold text-white' }, 'بهترین لوازم ماهیگیری و کمپینگ با قیمت‌های استثنایی'),
     h('div', { className: 'mb-6' }, [
       h('h2', { className: 'text-2xl font-bold mb-4 text-gray-800' }, 'دسته‌بندی‌ها'),
       h('div', { className: 'flex flex-wrap gap-4 justify-center' }, [
@@ -62,7 +62,7 @@ const App = () => h(
       h('p', { className: 'text-lg mb-2' }, 'ضمانت سلامت کالا - کالای معیوب را بدون هزینه پس می‌گیریم'),
       h('p', { className: 'text-lg' }, 'پشتیبانی ۲۴ ساعته از طریق چت آنلاین'),
     ]),
-  ]))
+  ])
 );
 
 ReactDOM.render(h(App), document.getElementById('root'));
